@@ -117,7 +117,7 @@ over-confident on an unseen country; the threshold maximising the average unseen
   | + cross-encoder score as a feature (final) | **0.9846** |
 
   Leaderboard: baseline 0.672; first model + set selection 0.958; + unseen-country threshold 0.959;
-  final model (this submission) **0.962**. The train→leaderboard gap (0.018) is larger than the train variance and is
+  final model (this submission) **0.974**. The train→leaderboard gap (0.011) is larger than the train variance and is
   attributed to the unseen country (France, 15% of test) and the denser test set.
   Leave-one-country-out (pair model trained on one country, scored on the other, threshold 0.7):
 
