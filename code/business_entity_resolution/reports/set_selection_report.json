@@ -1,0 +1,41 @@
+{
+ "method": "entity-context re-scoring, threshold 0.75; unseen countries ['france']: threshold 0.85",
+ "train_oof_macro_f05": 0.9846,
+ "pair_threshold_oof_macro_f05": 0.9772,
+ "gain": 0.0074,
+ "file": "matching_results.tsv",
+ "all_results": {
+  "pair threshold 0.6": 0.9769,
+  "pair threshold 0.65": 0.9771,
+  "pair threshold 0.7": 0.9772,
+  "pair threshold 0.75": 0.9772,
+  "entity-context threshold 0.5": 0.9838,
+  "entity-context threshold 0.55": 0.9841,
+  "entity-context threshold 0.6": 0.9844,
+  "entity-context threshold 0.65": 0.9845,
+  "entity-context threshold 0.7": 0.9846,
+  "entity-context threshold 0.75": 0.9846,
+  "entity-context threshold 0.8": 0.9845
+ },
+ "test_empty_share": 0.0616,
+ "test_matches_per_s1": 3.269,
+ "feature_importance": {
+  "p": 138903576.5116706,
+  "rank": 8518683.544631481,
+  "n_rel": 22394880.145759106,
+  "pmax": 59792358.07496452,
+  "psum": 369880644.2062745,
+  "n_hi": 333844474.98799706,
+  "n_vhi": 5637661.179251671,
+  "p2": 232028747.6175499,
+  "rel": 164222170.36139107,
+  "gap": 64798829.6967845,
+  "sib_name": 2327707.0222353935,
+  "sib_ns": 36422801.37772703,
+  "sib_addr": 4211710.732925415,
+  "sib_addr_eq": 1356655.101764679,
+  "sib_name_eq": 3684321.2038764954,
+  "sib_n": 143178.83951091766,
+  "ce": 5477602.327695847
+ }
+}

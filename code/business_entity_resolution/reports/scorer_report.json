@@ -1,0 +1,17 @@
+{
+ "train_candidate_pairs": 11804809,
+ "ceiling_perfect_model": 0.9913773772746853,
+ "predict_nothing": 0.05584820880352326,
+ "keep_all_candidates": 0.6675203053198915,
+ "baseline_threshold": 0.75,
+ "baseline_macro_f05": 0.7513378979055138,
+ "loss_breakdown": {
+  "singleton given a match": 0.0425,
+  "wrong matches (false positives)": 0.1272,
+  "missed, not in candidates (blocking)": 0.0099,
+  "missed, in candidates (decision)": 0.0691
+ },
+ "test_rows": 1732544,
+ "test_empty_share": 0.0214,
+ "test_matches_per_s1": 3.99
+}

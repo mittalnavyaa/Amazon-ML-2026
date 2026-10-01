@@ -1,0 +1,74 @@
+{
+ "loco": [
+  {
+   "target": "india",
+   "trained on": "us",
+   "features": "all features",
+   "in-country F0.5 @0.7": 0.9715,
+   "unseen F0.5 @0.7": 0.923,
+   "drop @0.7": 0.0486,
+   "unseen @0.6": 0.9197,
+   "unseen @0.65": 0.9214,
+   "unseen @0.7": 0.923,
+   "unseen @0.75": 0.9245,
+   "unseen @0.8": 0.9257,
+   "unseen @0.85": 0.9264,
+   "unseen @0.9": 0.926,
+   "unseen @0.95": 0.9212
+  },
+  {
+   "target": "us",
+   "trained on": "india",
+   "features": "all features",
+   "in-country F0.5 @0.7": 0.9815,
+   "unseen F0.5 @0.7": 0.9629,
+   "drop @0.7": 0.0186,
+   "unseen @0.6": 0.9596,
+   "unseen @0.65": 0.9615,
+   "unseen @0.7": 0.9629,
+   "unseen @0.75": 0.964,
+   "unseen @0.8": 0.9649,
+   "unseen @0.85": 0.965,
+   "unseen @0.9": 0.9632,
+   "unseen @0.95": 0.954
+  }
+ ],
+ "recommended_features": "all features",
+ "france_threshold": 0.85,
+ "mean_unseen_curve": {
+  "0.6": 0.9396919248515738,
+  "0.65": 0.9414301962394547,
+  "0.7": 0.9429331876333689,
+  "0.75": 0.9442550685450108,
+  "0.8": 0.9452723111988474,
+  "0.85": 0.9456950126217236,
+  "0.9": 0.9445808822969961,
+  "0.95": 0.9376203190280499
+ },
+ "test_diagnostics": [
+  {
+   "country_clean": "india",
+   "S1": 809986,
+   "empty_share": 0.06370603936364332,
+   "matches_per_s1": 3.15620023062127,
+   "cands_per_s1": 5.824145108680891,
+   "uncertain_best": 0.01407308274464003
+  },
+  {
+   "country_clean": "us",
+   "S1": 663106,
+   "empty_share": 0.06078816961390788,
+   "matches_per_s1": 3.2254481184003763,
+   "cands_per_s1": 5.7562335433550595,
+   "uncertain_best": 0.011747744704466555
+  },
+  {
+   "country_clean": "france",
+   "S1": 259452,
+   "empty_share": 0.06248554645946071,
+   "matches_per_s1": 3.1716039961148885,
+   "cands_per_s1": 5.530741717157702,
+   "uncertain_best": 0.010306337973883415
+  }
+ ]
+}

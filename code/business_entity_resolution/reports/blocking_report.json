@@ -1,0 +1,6 @@
+{
+ "train": {"s1_entities": 2206821, "candidate_pairs": 11804809, "candidates_per_s1": 5.349, "max_candidates_one_s1": 992,
+           "s1_with_no_candidate": 1619, "true_pairs": 7638365, "pair_recall": 0.9762, "reduction_ratio": 0.99999948},
+ "test":  {"s1_entities": 1732544, "candidate_pairs": 11652844, "candidates_per_s1": 6.726, "reduction_ratio": 0.99999933,
+           "s1_with_no_candidate": 1215}
+}

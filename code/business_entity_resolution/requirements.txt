@@ -1,0 +1,10 @@
+# Python 3.12
+polars==1.44.2
+numpy==2.0.0
+scipy==1.13.1
+scikit-learn==1.5.0
+lightgbm==4.7.0
+rapidfuzz==3.14.6
+joblib==1.4.2
+sparse_dot_topn==1.2.0
+indic-transliteration==2.3.82
